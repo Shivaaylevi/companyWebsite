@@ -1,0 +1,22 @@
+.header img{
+    height: 85vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(30%);
+  }
+  .header{
+    position:relative;
+  }
+.product-content{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 5rem;
+    color: aliceblue;
+  }
+  .product-content h1{
+    font-size: 6rem;
+    font-weight: 700;
+  }

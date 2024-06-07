@@ -1,0 +1,35 @@
+ .main-footer {
+    color: white;
+    background-color: rgb(34, 34, 34);
+    padding-top: 3em;
+    padding-left: 13em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+
+.col1 h2{
+    font-weight:700;
+}
+.col1 li{
+    font-size: 1.6rem;
+    color: rgb(175, 170, 170);
+}
+/* .col1-sm{
+    text-align: center;
+} */ 
+p{
+    text-align: center;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /* margin: 3px; */
+}
+.col1{
+    flex: 25%;
+    /* margin: px; */
+}

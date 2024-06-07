@@ -1,0 +1,31 @@
+.serv{
+    background-color: rgb(244, 237, 237);
+}
+.ourWorkingAreas{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    align-items: center;
+}
+.workingarea{
+    padding-bottom: 3%;
+    background-color:rgb(253, 239, 239);
+  
+}
+.workingarea h1{
+
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 1.5em;
+}
+.ourWorkingArea .serviceimg img{
+    height:90%;
+    border-radius: 100%;
+    object-fit: contain;
+}
+.ourWorkingArea .serviceModel{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}

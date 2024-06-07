@@ -1,0 +1,21 @@
+.canvas-container{
+max-height: 39vh;
+}
+canvas{
+    z-index: -1;
+    position: relative;
+    height: 40vh;
+    width: 100%;
+}
+
+.particle-content{
+    position: absolute;
+    top: 26%;
+    left: 8%;
+    color: white;
+    font-size:1.7rem;
+}
+h2{
+    font-size: 1.6rem;
+    margin-top: 2em;
+}

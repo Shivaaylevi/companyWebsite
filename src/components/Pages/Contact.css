@@ -1,0 +1,83 @@
+.contact-header{
+    background-color: rgb(30, 30, 30);
+    height: 60vh;
+    color: white;
+    width: 100%;
+}
+.contact-content{
+    position: relative;
+    top: 40%;
+    margin-left: 7rem;
+}
+.contact-content h1{
+    font-size: 3rem;
+    font-weight: 300;
+}
+.contact-content p{
+    font-size: 1.4rem;
+    margin-top: 3em;
+}
+.conth{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 3rem;
+}
+.contact-imgs{
+margin: 80px auto;
+width: 90%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.contact-img img{
+width: 50px;
+display: flex;
+border-radius: 10px;
+display: block;
+margin: auto;
+}
+.contact-img{
+    flex-basis: 33%;
+    /* border: 1px solid red; */
+    border-radius: 4%;
+    margin: 8px;
+}
+
+.contact-img p{
+text-align: center;
+margin-top: 5%;
+font-size: 1.7rem;
+font-weight:bolder;
+}
+.contact-img h6{
+    text-align: center;
+    margin-top: 1.2rem;
+    font-size: larger;
+    color: blue;
+}
+
+.contact-img:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: 0.3s;
+}
+
+.contact-detail{
+    background-color: #F5F6F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.contc h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+.contact-img a{
+    text-decoration: none;
+    color: black;
+}
+.contact-img a:hover{
+    color: blue;
+    transition: 0.5s;
+}
